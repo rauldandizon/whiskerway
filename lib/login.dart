@@ -42,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
         box.write('email', email);
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => HomePage()),
+          MaterialPageRoute(builder: (context) => const HomePage()),
         );
       } else {
         showToast('Please verify your email!');
